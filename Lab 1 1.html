@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab Task 01 - AIUB</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* ID Selector: Unique style for the main heading [cite: 586, 899] */
+        #mainTitle {
+            color: #007BFF; /* [cite: 211, 904] */
+            text-align: center; /* [cite: 146, 909] */
+            font-size: 32px; /* [cite: 906] */
+            margin-bottom: 20px; /* [cite: 149] */
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            background-color: white; /* [cite: 134] */
+            padding: 35px; /* [cite: 135] */
+            border-radius: 10px; /* [cite: 141] */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* [cite: 137] */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 id="mainTitle">Introduction to Web Technologies</h1>
+
+        <p>This lab demonstrates the three ways to apply CSS to an HTML document.</p>
+
+        <p class="highlight">
+            The external CSS handles the background, the internal CSS handles this container, 
+            and the universal selector resets the margins.
+        </p>
+
+        <h2 style="color: darkgreen; text-align: left; font-family: 'Verdana';">
+            Specific Section Styled with Inline CSS
+        </h2>
+
+        <p>This paragraph remains styled by the element selector in the external CSS file.</p>
+    </div>
+
+</body>
+</html>

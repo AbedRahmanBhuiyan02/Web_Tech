@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab Task 03 - Box Model & Display</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Lab Task 03: CSS Box Model</h1>
+
+    <h3>Part A & B: Box Model & Sizing Comparison</h3>
+    <div class="box">Default Box (Content-Box)</div>
+    <div class="box box-large-padding">Large Padding Box</div>
+    <div class="box border-box">Border-Box (Fixed Total Width)</div>
+
+    <hr>
+
+    <h3>Part C: Display Properties</h3>
+    <div class="container">
+        <p class="block-element">This is a block-level &lt;p&gt;.</p>
+        <span class="inline-element">Inline Span 1</span>
+        <span class="inline-element">Inline Span 2</span>
+        <div class="inline-block-element">Inline-Block Div</div>
+    </div>
+
+    <hr>
+
+    <h3>Part D: Visibility: Hidden vs. Display: None</h3>
+    <div class="container">
+        <p>There is a hidden element between these two sentences:</p>
+        
+        <div class="display-none">You can't see me or my space.</div>
+        
+        <p>The "display: none" element is gone. Now look at the gap below:</p>
+        
+        <div class="visibility-hidden">I am invisible but I still take up space.</div>
+        
+        <p>The empty space above is where "visibility: hidden" is applied.</p>
+    </div>
+
+</body>
+</html>
