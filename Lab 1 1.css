@@ -1,27 +1,26 @@
-/* 1. Universal Selector: Resets default browser spacing [cite: 564, 570, 896] */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* [cite: 172, 179] */
+    box-sizing: border-box; 
 }
 
-/* 2. Element Selector: Styles all body and paragraph elements [cite: 572, 897] */
+
 body {
-    font-family: 'Arial', sans-serif; /* [cite: 119, 907] */
-    background-color: #f3f6f9; /* [cite: 120, 905] */
+    font-family: 'Arial', sans-serif; 
+    background-color: #f3f6f9; 
     padding: 20px;
 }
 
 p {
-    font-size: 16px; /* [cite: 906] */
-    color: #333; /* [cite: 147, 904] */
-    line-height: 1.6; /* [cite: 497] */
+    font-size: 16px; 
+    color: #333; 
+    line-height: 1.6; 
 }
 
-/* 3. Class Selector: Styles specific repeatable elements [cite: 577, 898] */
+
 .highlight {
-    background-color: #ffffcc; /* [cite: 905] */
+    background-color: #ffffcc; 
     padding: 5px;
-    border-radius: 5px; /* [cite: 136] */
-    font-weight: bold; /* [cite: 371] */
+    border-radius: 5px; 
+    font-weight: bold; 
 }

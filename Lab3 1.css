@@ -1,53 +1,52 @@
-/* --- PART A: Box Model Demonstration [cite: 965] --- */
 .box {
-    width: 200px; /* cite: 968 */
-    height: 100px; /* cite: 969 */
+    width: 200px; 
+    height: 100px; 
     background-color: lightblue;
-    border: 5px solid #0056b3; /* cite: 971 */
-    margin: 20px; /* cite: 972 */
-    padding: 15px; /* cite: 970 */
+    border: 5px solid #0056b3; 
+    margin: 20px; 
+    padding: 15px; 
 }
 
-/* Different values to show spacing differences [cite: 973] */
+
 .box-large-padding {
     padding: 40px; 
     background-color: lightgreen;
 }
 
-/* --- PART B: Box Sizing [cite: 974] --- */
+
 .border-box {
-    box-sizing: border-box; /* cite: 976 */
+    box-sizing: border-box; 
     background-color: coral;
 }
 
-/* --- PART C: Display Properties [cite: 979] --- */
+
 .block-element {
-    display: block; /* cite: 981 */
+    display: block; 
     background-color: #ddd;
     margin-bottom: 10px;
 }
 
 .inline-element {
-    display: inline; /* cite: 982 */
+    display: inline; 
     background-color: yellow;
     padding: 5px;
 }
 
 .inline-block-element {
-    display: inline-block; /* cite: 983 */
+    display: inline-block; 
     width: 150px;
     height: 50px;
     background-color: plum;
     text-align: center;
 }
 
-/* --- PART D: Visibility vs Display [cite: 989] --- */
+
 .display-none {
-    display: none; /* cite: 984 */
+    display: none; 
 }
 
 .visibility-hidden {
-    visibility: hidden; /* cite: 990 */
+    visibility: hidden; 
 }
 
 .container {
